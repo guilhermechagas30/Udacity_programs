@@ -19,9 +19,18 @@ stranger_things = media.Movie("Stranger Things","Stories from the upside down",
                               "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_.jpg",
                               "https://www.youtube.com/watch?v=vgS2L7WPIO4")
 
-print(stranger_things.title)
+#print(stranger_things.title)
 
-stranger_things.show_trailer()
+#stranger_things.show_trailer()
 
 movies = [toy_story, avatar, stranger_things]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+#print(media.Movie.VALID_RATINGS)
+
+print(media.Movie.__doc__)
+
+print(media.Movie.__name__)
+
+print(media.Movie.__module__)
+
